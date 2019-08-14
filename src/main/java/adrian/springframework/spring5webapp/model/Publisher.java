@@ -18,17 +18,12 @@ public class Publisher {
     }
 
     public Publisher(String name, String address) {
-        this.id = id;
         this.name = name;
         Address = address;
     }
 
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getName() {
